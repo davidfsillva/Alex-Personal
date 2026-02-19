@@ -651,17 +651,12 @@ footer {
         display: flex;
     }
 
-
-    .hero-cta {
-        flex-direction: column;
-        align-items: stretch;
-    }
-
-    .hero-cta .btn-primary,
-    .hero-cta .btn-outline {
-        width: 100%;
-        text-align: center;
+        .btn-primary,
+    .btn-outline,
+    .btn-pricing,
+    .btn-nav {
         font-size: 0.85rem;
+        padding: 0.8rem 1.8rem;
     }
 }
 
